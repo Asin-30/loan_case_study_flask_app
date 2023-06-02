@@ -4,9 +4,9 @@ from app import app
 
 ## we need to run a server to test the flask app
 # using pytest fixtures : allows to write piece of code that are reusable across tests 
-# hence i'll be allowed to test various funcion of loan.py with one single server.
+# hence i'll be allowed to test various funcion of app.py with one single server.
 
-# this will be running server and will take all the requests made (/ping endpoint in loan.py)
+# this will be running server and will take all the requests made (/ping endpoint in app.py)
 
 # server
 @pytest.fixture
