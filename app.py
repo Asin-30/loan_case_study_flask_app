@@ -73,4 +73,4 @@ def prediction():
 
 
 if __name__ == '__main__':
-    loan.run()
+    app.run(debug = True)
